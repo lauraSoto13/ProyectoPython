@@ -22,6 +22,7 @@ def imprimirBd():
             usuario.mostrar()
 
 while True: 
+    print("\n Bienvenido/a a mi proyecto de Python!")
     print("\n Menú")
     print("1. Registro")
     print("2. Modificar")
@@ -30,7 +31,7 @@ while True:
     print("5. Log In")
     print("6. Salir")
 
-    opc = input("Seleccione una opcion")
+    opc = input("Seleccione una opcion: ")
 
     if opc == '1':
         nombre = input("Ingrese el nombre del usuario: ")
