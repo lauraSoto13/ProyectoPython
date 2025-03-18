@@ -72,7 +72,7 @@ conexion1, cursor1 = conectar_bd()
 
 #Inicio del menú. 
 while True:
-    print(palabra)
+   
     print("\n Menú")
     print("1. Registro de usuario.")
     print("2. Modificar usuario.")
